@@ -4,7 +4,7 @@ Welcome to the official repository of **In-Context LoRA for Diffusion Transforme
 
 With IC-LoRA, you can fine-tune text-to-image models to **generate image sets** with customizable intrinsic relationships. You can also **condition the generation on another image set**, enabling task-agnostic adaptation to a wide range of applications.
 
-![teaser](https://img.alicdn.com/imgextra/i3/O1CN01zTsWC71HGO8GJkPnl_!!6000000000730-0-tps-2685-853.jpg)
+![teaser](./teaser.jpg)
 
 > **Prompt:** *“This set of **four images** illustrates a young artist's creative process in a bright and inspiring studio; **[IMAGE1]** she stands before a large canvas, brush in hand, adding vibrant colors to a partially completed painting, **[IMAGE2]** she sits at a cluttered wooden table, sketching ideas in a notebook with various art supplies scattered around, **[IMAGE3]** she takes a moment to step back and observe her work, and **[IMAGE4]** she experiments with different textures by mixing paints directly on the palette, her focused expression showcasing her dedication to her craft.”*
 
