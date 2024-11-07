@@ -6,7 +6,7 @@
 - **[2024-11-01]** 📂 Data and training configurations for **[In-Context LoRA](https://arxiv.org/abs/2410.23775)** are now available!
 - **[2024-10-31]** 📜 Our latest paper, **[In-Context LoRA](https://arxiv.org/abs/2410.23775)**, introduces a flexible framework adaptable to a wide range of tasks.
 - **[2024-10-19]** 🎨 We released the paper **[Group Diffusion Transformers](https://arxiv.org/abs/2410.15027)**, the predecessor of In-Context LoRA, offering zero-shot support for 30 visual generation tasks.
-- **[2024-10-19]** 💻 We release the **[code and models](https://github.com/ali-vilab/FlashFace)** for **[FlashFace](https://github.com/ali-vilab/FlashFace)**, a precursor to Group Diffusion Transformers, verifies attention token concatenation for customized generation scenarios.
+- **[2024-4-18]** 💻 We release the **[code and models](https://github.com/ali-vilab/FlashFace)** for **[FlashFace](https://github.com/ali-vilab/FlashFace)**, a precursor to Group Diffusion Transformers, verifies attention token concatenation for customized generation scenarios.
 
 Welcome to the official repository of **In-Context LoRA for Diffusion Transformers** ([Paper](https://arxiv.org/abs/2410.23775) and [Project Page](https://ali-vilab.github.io/In-Context-LoRA-Page/)).
 
