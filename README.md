@@ -1,6 +1,6 @@
 # In-Context LoRA (IC-LoRA)
 
-🔥 Latest News!
+🔥 **Latest News!**
 
 - **[2024-11-07]** 🚀 We have released **[10 pretrained models](https://huggingface.co/ali-vilab/In-Context-LoRA)** for In-Context LoRA, covering diverse tasks such as Film Storyboard Generation, Visual Identity Design, and Visual Effects. See **[MODEL ZOO](#model-zoo)** for details. We also provide an [example workflow](./workflow/film-storyboard.json) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 - **[2024-11-01]** 📂 Data and training configurations for **[In-Context LoRA](https://arxiv.org/abs/2410.23775)** are now available!
