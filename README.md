@@ -10,7 +10,15 @@
 
 Welcome to the official repository of **In-Context LoRA for Diffusion Transformers** ([Paper](https://arxiv.org/abs/2410.23775) and [Project Page](https://ali-vilab.github.io/In-Context-LoRA-Page/)).
 
-With IC-LoRA, you can fine-tune text-to-image models to **generate image sets** with customizable intrinsic relationships. You can also **condition the generation on another image set**, enabling task-agnostic adaptation to a wide range of applications.
+## Key Idea
+
+The core concept of IC-LoRA is to **concatenate** both condition and target images into a single composite image while using **Natural Language** to define the task. This approach enables seamless adaptation to a wide range of applications.
+
+## Features
+
+- **Task-Agnostic Framework**: IC-LoRA serves as a general framework, but it requires task-specific fine-tuning for diverse applications.
+- **Customizable Image-Set Generation**: You can fine-tune text-to-image models to **generate image sets** with customizable intrinsic relationships.
+- **Condition on Image-Set**: You can also **condition the generation of a set of images on another set of images**, enabling a wide range of controllable generation applications.
 
 For more detailed information and examples, please read our [Paper](https://arxiv.org/abs/2410.23775) or visit our [Project Page](https://ali-vilab.github.io/In-Context-LoRA-Page/).
 
