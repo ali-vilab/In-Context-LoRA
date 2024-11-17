@@ -11,6 +11,23 @@
 
 Welcome to the official repository of **In-Context LoRA for Diffusion Transformers** ([Paper](https://arxiv.org/abs/2410.23775) and [Project Page](https://ali-vilab.github.io/In-Context-LoRA-Page/)).
 
+## Community Creations Using IC-LoRA
+
+We are thrilled to showcase the community's innovative projects leveraging In-Context LoRA (IC-LoRA). If you have additional recommendations or projects to share, **please don't hesitate to send a [Pull Request](https://github.com/ali-vilab/In-Context-LoRA/pulls)!**
+
+| Project Name | Type                 | Supported Tasks                                                                 | Sample Results |
+|--------------|----------------------|---------------------------------------------------------------------------------|----------------|
+| 1. [Comfyui_Object_Migration](https://github.com/TTPlanetPig/Comfyui_Object_Migration) | ComfyUI Node & Workflow & LoRA Model         | Clothing Migration, Cartoon Clothing to Realism, and More     | ![Sample Result](./static/386534865-9612cf8a-858d-4684-819e-7b97981d993c.png) |
+| 2. [Flux Simple Try On - In Context Lora](https://civitai.com/models/950111/flux-simple-try-on-in-context-lora) | LoRA Model & ComfyUI Workflow     | Virtual Try-on             | ![Sample Result](./static/example_1.png) ![Sample Result](./static/ComfyUI_temp_ditfb_00016_.jpeg) |
+| 3. [Flux In Context - visual identity Lora in Comfy](https://civitai.com/articles/8779) | ComfyUI Workflow               | Visual Identity Transfer              | ![Sample Result](./static/ComfyUI_00026_.jpeg) |
+| 4. [Workflows Flux In Context Lora For Product Design](https://civitai.com/models/933018/workflows-flux-in-context-lora-for-product-design) | ComfyUI Workflow               | Product Design, Role Play, and More              | ![Sample Result](./static/ComfyUI_temp_opjou_00016_.jpeg) |
+| 5. [Flux Product Design - In Context Lora](https://civitai.com/models/933026/flux-product-design-in-context-lora) | LoRA Model & ComfyUI Workflow               | Product Design              | ![Sample Result](./static/2024-11-10-002611_0.jpeg) |
+| 6. [In Context lora + Character story generator + flux+ shichen](https://civitai.com/models/951357/in-context-lora-character-story-generator-flux-shichen) | ComfyUI Workflow               | Character Movie Story Generator              | ![Sample Result](./static/role2story.jpeg) |
+| 7. [In- Context-Lora｜Cute 4koma 可爱四格漫画](https://civitai.com/models/947702/in-context-loracute-4koma) | LoRA Model & ComfyUI Workflow               | Comic Strip Generation              | ![Sample Result](./static/ComfyUI_00098_.jpeg) |
+| 8. [Creative Effects & Design LoRA Pack (In-Context LORA)](https://civitai.com/models/929592/creative-effects-and-design-lora-pack-in-context-lora) | LoRA Model & ComfyUI Workflow               | Movie-Shot Generation and More              | ![Sample Result](./static/film-storyboard-1.jpeg) |
+
+We extend our heartfelt thanks to all contributors for their exceptional work in advancing the IC-LoRA ecosystem.
+
 ## Key Idea
 
 The core concept of IC-LoRA is to **concatenate** both condition and target images into a single composite image while using **Natural Language** to define the task. This approach enables seamless adaptation to a wide range of applications.
@@ -60,23 +77,6 @@ Below lists 10 In-Context LoRA models and their recommend settings. We provide a
 | **8. Sandstorm Visual Effect** | [`sandstorm-visual-effect.safetensors`](https://huggingface.co/ali-vilab/In-Context-LoRA/blob/main/sandstorm-visual-effect.safetensors)      | `width: 1408, height: 1600` | `[SANDSTORM-PSA] This two-part image showcases the transformation of a cyclist through a sandstorm visual effect; [TOP] the upper panel features a cyclist in vibrant gear pedaling steadily on a clear, open road with a serene sky in the background, highlighting focus and determination, [BOTTOM] the lower panel transforms the scene as the cyclist becomes enveloped in a fierce sandstorm, with sand particles swirling intensely around the bike and rider against a stormy, darkened backdrop, emphasizing chaos and power.` |
 | **9. Sparklers Visual Effect** | [`sparklers-visual-effect.safetensors`](https://huggingface.co/ali-vilab/In-Context-LoRA/blob/main/sparklers-visual-effect.safetensors)      | `width: 960, height: 1088` | `[REAL-SPARKLERS-OVERLAYS] The two-part image vividly illustrates a woodland proposal transformed by sparkler overlays; [TOP] the first panel depicts a man kneeling on one knee with an engagement ring before his partner in a forest clearing at dusk, with warm, natural lighting, [BOTTOM] while the second panel introduces glowing sparklers that form a heart shape around the couple, amplifying the romance and joy of the moment.` |
 | **10. Visual Identity Design** | [`visual-identity-design.safetensors`](https://huggingface.co/ali-vilab/In-Context-LoRA/blob/main/visual-identity-design.safetensors)      | `width: 1472, height: 1024` | `The two-panel image showcases the joyful identity of a produce brand, with the left panel showing a smiling pineapple graphic and the brand name “Fresh Tropic” in a fun, casual font on a light aqua background; [LEFT] while the right panel translates the design onto a reusable shopping tote with the pineapple logo in black, held by a person in a market setting, emphasizing the brand’s approachable and eco-friendly vibe.` |
-
-## Community Creations Using IC-LoRA
-
-We are thrilled to showcase the community's innovative projects leveraging In-Context LoRA (IC-LoRA). If you have additional recommendations or projects to share, **please don't hesitate to send a [Pull Request](https://github.com/ali-vilab/In-Context-LoRA/pulls)!**
-
-| Project Name | Type                 | Supported Tasks                                                                 | Sample Results |
-|--------------|----------------------|---------------------------------------------------------------------------------|----------------|
-| 1. [Comfyui_Object_Migration](https://github.com/TTPlanetPig/Comfyui_Object_Migration) | ComfyUI Node & Workflow & LoRA Model         | Clothing Migration, Cartoon Clothing to Realism, and More     | ![Sample Result](./static/386534865-9612cf8a-858d-4684-819e-7b97981d993c.png) |
-| 2. [Flux Simple Try On - In Context Lora](https://civitai.com/models/950111/flux-simple-try-on-in-context-lora) | LoRA Model & ComfyUI Workflow     | Virtual Try-on             | ![Sample Result](./static/example_1.png) ![Sample Result](./static/ComfyUI_temp_ditfb_00016_.jpeg) |
-| 3. [Flux In Context - visual identity Lora in Comfy](https://civitai.com/articles/8779) | ComfyUI Workflow               | Visual Identity Transfer              | ![Sample Result](./static/ComfyUI_00026_.jpeg) |
-| 4. [Workflows Flux In Context Lora For Product Design](https://civitai.com/models/933018/workflows-flux-in-context-lora-for-product-design) | ComfyUI Workflow               | Product Design, Role Play, and More              | ![Sample Result](./static/ComfyUI_temp_opjou_00016_.jpeg) |
-| 5. [Flux Product Design - In Context Lora](https://civitai.com/models/933026/flux-product-design-in-context-lora) | LoRA Model & ComfyUI Workflow               | Product Design              | ![Sample Result](./static/2024-11-10-002611_0.jpeg) |
-| 6. [In Context lora + Character story generator + flux+ shichen](https://civitai.com/models/951357/in-context-lora-character-story-generator-flux-shichen) | ComfyUI Workflow               | Character Movie Story Generator              | ![Sample Result](./static/role2story.jpeg) |
-| 7. [In- Context-Lora｜Cute 4koma 可爱四格漫画](https://civitai.com/models/947702/in-context-loracute-4koma) | LoRA Model & ComfyUI Workflow               | Comic Strip Generation              | ![Sample Result](./static/ComfyUI_00098_.jpeg) |
-| 8. [Creative Effects & Design LoRA Pack (In-Context LORA)](https://civitai.com/models/929592/creative-effects-and-design-lora-pack-in-context-lora) | LoRA Model & ComfyUI Workflow               | Movie-Shot Generation and More              | ![Sample Result](./static/film-storyboard-1.jpeg) |
-
-We extend our heartfelt thanks to all contributors for their exceptional work in advancing the IC-LoRA ecosystem.
 
 ## License
 
