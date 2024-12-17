@@ -26,6 +26,7 @@ We are thrilled to showcase the community's innovative projects leveraging In-Co
 | 6. [In Context lora + Character story generator + flux+ shichen](https://civitai.com/models/951357/in-context-lora-character-story-generator-flux-shichen) | ComfyUI Workflow               | Character Movie Story Generator              | ![Sample Result](./static/role2story.jpeg) |
 | 7. [In- Context-Lora｜Cute 4koma 可爱四格漫画](https://civitai.com/models/947702/in-context-loracute-4koma) | LoRA Model & ComfyUI Workflow               | Comic Strip Generation              | ![Sample Result](./static/ComfyUI_00098_.jpeg) |
 | 8. [Creative Effects & Design LoRA Pack (In-Context LORA)](https://civitai.com/models/929592/creative-effects-and-design-lora-pack-in-context-lora) | LoRA Model & ComfyUI Workflow               | Movie-Shot Generation and More              | ![Sample Result](./static/film-storyboard-1.jpeg) |
+| 9. [Art Amp](https://github.com/AmaDeuSZodiacXz/Art_Amp_XL) | LoRA Model & Workflow | Enhancing line art clarity, adding selective color and shading via prompts | ![Sample Result](./static/Art_Amp_ex.jpg) |
 
 We extend our heartfelt thanks to all contributors for their exceptional work in advancing the IC-LoRA ecosystem.
 
