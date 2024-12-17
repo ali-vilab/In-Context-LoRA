@@ -2,6 +2,7 @@
 
 🔥 **Latest News!**
 
+- **[2024-12-17]** 🚀 We are excited to release **[IDEA-Bench](https://ali-vilab.github.io/IDEA-Bench-Page/)**, a comprehensive benchmark designed to assess the zero-shot task generalization abilities of generative models. The benchmark includes 100 real-world design tasks across 275 unique cases. Despite its general-purpose focus, the top-performing model, EMU2, achieves a score of only **6.81** out of 100, highlighting the current challenges in this domain. Explore the benchmark and challenge the limits of model performance!
 - **[2024-11-16]** 🌟 The community continues to innovate with IC-LoRA! Exciting projects include models, ComfyUI nodes and workflows for **Virtual Try-on, Product Design, Object Mitigation, Role Play**, and more. Explore their creations in **[Community Creations Using IC-LoRA](#community-creations-using-ic-lora)**. Huge thanks to all contributors for their incredible efforts!
 - **[2024-11-07]** 🚀 We have released **[10 pretrained models](https://huggingface.co/ali-vilab/In-Context-LoRA)** for In-Context LoRA, covering diverse tasks such as Film Storyboard Generation, Visual Identity Design, and Visual Effects. See **[MODEL ZOO](#model-zoo)** for details. We also provide an [example workflow](./workflow/film-storyboard.json) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 - **[2024-11-01]** 📂 Data and training configurations for **[In-Context LoRA](https://arxiv.org/abs/2410.23775)** are now available!
